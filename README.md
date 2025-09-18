@@ -2,6 +2,12 @@
 
 Una aplicación React interactiva para crear diagramas de flujo para presentaciones, construida con Vite, TypeScript y Tailwind CSS.
 
+## 🌐 Demo en Vivo
+
+**[Ver la aplicación en vivo ➡️](https://diagram-flow-react.vercel.app/)**
+
+Desplegado automáticamente en Vercel desde GitHub.
+
 ## 🚀 Tecnologías
 
 - **React 18** - Biblioteca de interfaz de usuario
