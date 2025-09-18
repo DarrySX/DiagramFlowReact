@@ -63,6 +63,33 @@ src/
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📝 Licencia
+## � Despliegue
+
+### Vercel
+
+Este proyecto está configurado para desplegarse automáticamente en Vercel:
+
+1. Conecta tu repositorio de GitHub a Vercel
+2. Vercel detectará automáticamente que es un proyecto Vite
+3. La configuración en `vercel.json` se encargará del resto
+
+**Configuración automática:**
+- Build Command: `pnpm build`
+- Output Directory: `dist`
+- Install Command: `pnpm install`
+
+### Despliegue manual
+
+Para probar el build localmente antes del despliegue:
+
+```bash
+# Construir para producción
+pnpm build
+
+# Previsualizar la build
+pnpm preview
+```
+
+## �📝 Licencia
 
 Este proyecto está bajo la Licencia MIT.

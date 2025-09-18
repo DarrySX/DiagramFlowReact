@@ -1,5 +1,5 @@
 {
-    "name": "Diagrama de Flujo para Presentación",
+    "name": "DiagramFlowReact",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -50,7 +50,10 @@
     },
     "devDependencies": {
         "@types/node": "^20.10.0",
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
         "@vitejs/plugin-react-swc": "^3.10.2",
+        "typescript": "^5.2.2",
         "vite": "6.3.5"
     },
     "scripts": {
